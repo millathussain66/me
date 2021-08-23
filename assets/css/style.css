@@ -222,6 +222,18 @@ img {
   vertical-align: middle;
 }
 
+
+/*Code Edite By me*/
+img.logopng {
+    max-width: 16%;
+}
+img.describpreview{
+  width: 44%;
+}
+/*Code Edite By me*/
+
+
+
 svg:not(:root) {
   overflow: hidden;
 }
