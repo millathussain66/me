@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+img.logopng {
+    width: 12rem;
+}
+
 article,
 aside,
 details,
@@ -224,9 +228,10 @@ img {
 
 
 /*Code Edite By me*/
-img.logopng {
-    max-width: 16%;
-}
+
+
+
+
 img.describpreview{
   width: 44%;
 }
@@ -4035,7 +4040,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .bg_image--28 {
-  background-image: url(../images/bg/millat-hussain-coverimage.png);
+  background-image: url(../images/bg/bannersuer.svg);
 }
 
 .bg_image--29 {
@@ -4617,7 +4622,7 @@ textarea:-ms-input-placeholder {
 }
 
 /*=============================
-	Overlay styles 
+  Overlay styles 
 ==============================*/
 [data-overlay],
 [data-black-overlay],
@@ -9699,7 +9704,7 @@ img.react-parallax-bgimage {
   left: 0;
   width: 0;
   height: 3px;
-  background: #f9004d;
+  background: #e6ca34;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -9737,7 +9742,7 @@ img.react-parallax-bgimage {
 
 .header-area.header--sticky .mainmenunav ul.mainmenu > li > a.active, .header-area.header--sticky .mainmenunav ul.mainmenu > li > a:hover {
   background: transparent;
-  color: #f9004d;
+  color: #e6ca34;
 }
 
 .header-area.header--sticky .mainmenunav ul.mainmenu > li > a.active::after, .header-area.header--sticky .mainmenunav ul.mainmenu > li > a:hover::after {
@@ -9745,11 +9750,11 @@ img.react-parallax-bgimage {
 }
 
 .header-area.header--sticky.sticky {
-  background: #ffffff;
+  background: #51cd7df5;
   -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
   -webkit-animation: headerSlideDown .95s ease forwards;
-          animation: headerSlideDown .95s ease forwards;
+  animation: headerSlideDown .95s ease forwards;
 }
 
 .header-area.header--sticky.sticky .header-wrapper {
@@ -9773,7 +9778,7 @@ img.react-parallax-bgimage {
 }
 
 .header-area.header--sticky.sticky .header-wrapper .mainmenunav ul.mainmenu > li > a.active, .header-area.header--sticky.sticky .header-wrapper .mainmenunav ul.mainmenu > li > a:hover {
-  color: #f9004d;
+  color: #e6ca34;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10962,12 +10967,17 @@ ul.social-share.rn-lg-size li a {
 }
 
 ul.social-share.social-style--2 li a {
-  border: 0 none;
+  /* border: 0 none; */
   width: 30px;
   height: auto;
-  text-align: left;
-  line-height: inherit;
-  font-size: 16px;
+  color: beige;
+  /* text-align: left; */
+  /* line-height: inherit; */
+  font-size: 12px;
+  width: 50px;
+  height: 50px;
+  border: 10px solid;
+  /* text-align: center; */
 }
 
 ul.social-share.social-style--2 li:hover a {
@@ -11370,39 +11380,39 @@ Footer Style Two
 }
 
 .portfolio .thumbnail.image-1 {
-  background-image: url(../images/portfolio/portfolio-1.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-2 {
-  background-image: url(../images/portfolio/portfolio-2.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-3 {
-  background-image: url(../images/portfolio/portfolio-3.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-4 {
-  background-image: url(../images/portfolio/portfolio-4.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-5 {
-  background-image: url(../images/portfolio/portfolio-5.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-6 {
-  background-image: url(../images/portfolio/portfolio-6.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-7 {
-  background-image: url(../images/portfolio/portfolio-7.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-8 {
-  background-image: url(../images/portfolio/portfolio-8.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail.image-9 {
-  background-image: url(../images/portfolio/portfolio-9.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .thumbnail::after {
@@ -11428,7 +11438,7 @@ Footer Style Two
   background-size: cover;
   background-position: center;
   background-color: #0a0a0a;
-  background-image: url(../images/portfolio/portfolio-1.jpg);
+  background-image: url(../images/portfolio/post1.svg);
   -webkit-transform: translateY(38px);
       -ms-transform: translateY(38px);
           transform: translateY(38px);
@@ -11437,39 +11447,39 @@ Footer Style Two
 }
 
 .portfolio .bg-blr-image.image-1 {
-  background-image: url(../images/portfolio/portfolio-1.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-2 {
-  background-image: url(../images/portfolio/portfolio-2.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-3 {
-  background-image: url(../images/portfolio/portfolio-3.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-4 {
-  background-image: url(../images/portfolio/portfolio-4.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-5 {
-  background-image: url(../images/portfolio/portfolio-5.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-6 {
-  background-image: url(../images/portfolio/portfolio-6.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-7 {
-  background-image: url(../images/portfolio/portfolio-7.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-8 {
-  background-image: url(../images/portfolio/portfolio-8.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .bg-blr-image.image-9 {
-  background-image: url(../images/portfolio/portfolio-9.jpg);
+  background-image: url(../images/portfolio/post1.svg);
 }
 
 .portfolio .content {
@@ -13541,7 +13551,7 @@ Slider Styles
 }
 
 .slide.slider-style-3.dark-slider .inner h1.title span {
-  color: #f9004d !important;
+  color: #e6ca34 !important;
 }
 
 .slide.slider-style-3.dark-slider .inner h2 {
