@@ -1,735 +1,1439 @@
-
-<!doctype html>
-<html class="no-js" lang="en">
-
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Personal Portfolio || MD.Millat Hussain </title>
-    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ==== Document Title ==== -->
+    <title>Millat Hussain || Protfolio</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <meta name="keywords" content="">
 
-    <!-- CSS
-	============================================ -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-   <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
-    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" href="img/logomh.svg" type="image/svg">
 
+    <!-- ==== Google Font ==== -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Condensed:300,400,700">
+    
+    <!-- ==== Plugins Bundle ==== -->
+    <link rel="stylesheet" href="css/plugins.min.css">
+    
+    <!-- ==== Main Stylesheet ==== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link rel="stylesheet" href="css/responsive-style.css">
+    
+    <!-- ==== Color Scheme Stylesheet ==== -->
+    <link rel="stylesheet" href="css/colors/color-1.css" id="changeColorScheme">
+    
+    <!-- ==== Custom Stylesheet ==== -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+<body data-spy="scroll" data-target="#headerNav" data-offset="100">
 
-<body class="position-relative spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
-    <div id="my_switcher" class="my_switcher">
-        <ul>
-            <li>
-                <a href="javascript: void(0);" data-theme="light" class="setColor light">
-                    <img src="assets/images/about/sun-01.svg" alt="Sun images"><span title="Light Mode"> Light</span>
-                </a>
-            </li>
-            <li>
-                <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
-                    <img src="assets/images/about/vector.svg" alt="Vector Images"><span title="Dark Mode"> Dark</span>
-                </a>
-            </li>
-        </ul>
+    <!-- Preloader Start -->
+    <div id="preloader" class="bg-primary">
+        <div class="preloader--spinner"></div>
     </div>
-    <div class="main-page">
+    <!-- Preloader End -->
 
-        <!-- Start Header Area  -->
-        <header class="header-area header-style-two header--transparent header-light-mode header--sticky">
-            <div class="header-wrapper">
-                <div class="header-left d-flex align-items-center">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img class="logopng" src="assets/images/logo/Millat2.svg" alt="Millat Hussain">
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <header id="header" class="header--section">
+            <!-- Header Navbar Start -->
+            <nav class="header--navbar navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- Logo Start -->
+                        <a href="index.html" class="navbar-brand">
+                            <span class="vc--parent">
+                                <span class="vc--child">
+                                    <img src="img/logomh.svg" alt="">
+                                </span>
+                            </span>
                         </a>
+                        <!-- Logo End -->
                     </div>
-                    <nav class="mainmenunav d-lg-block ml--50">
-                        <div class="navbar-example2">
-                            <!-- Start Mainmanu Nav -->
-                            <ul class="mainmenu nav nav-pills">
-                                <li class="nav-item">
-                                    <a class="nav-link smoth-animation active" href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a class="nav-link smoth-animation" href="#about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link smoth-animation" href="#service">Service</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link smoth-animation" href="#portfolio">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link smoth-animation" href="#blog">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link smoth-animation" href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                            <!-- End Mainmanu Nav -->
-                        </div>
-                    </nav>
-                </div>
-                <div class="header-right">
-                    <div class="social-share-inner">
-                        <ul class="social-share social-style--2 d-flex justify-content-start liststyle">
-                            <li><a href="https://www.facebook.com/Developermillat/"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/millat127166"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.instagram.com/millat127166"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://github.com/millat127166"><i class="fab fa-github"></i></a></li>
 
+                    <div id="headerNav" class="navbar-collapse collapse">
+                        <!-- Header Nav Links Start -->
+                        <ul class="header--nav-links ff--primary nav navbar-right">
+                             <li class="active"><a href="#header" data-trigger="scroll">Home</a></li>
+                            <li><a href="#aboutme" data-trigger="scroll">About Me</a></li>
+                            <li><a href="#services" data-trigger="scroll">Services</a></li>
+                            <li><a href="#portfolio" data-trigger="scroll">Portfolio</a></li>
+                            <li><a href="#skills" data-trigger="scroll">Skills</a></li>
+                            <li><a href="#blog" data-trigger="scroll">Blog</a></li>
+                            <li><a href="#contact" data-trigger="scroll">Contact</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Home Page</a></li>
+                                    <li><a href="blog.html">Blog Page</a></li>
+                                    <li><a href="blog-details.html">Blog Details Page</a></li>
+                                    <li><a href="contact.html">Contact Page</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                    <li><a href="coming-soon.html">Coming Soon Page</a></li>
+                                </ul>
+                            </li>
                         </ul>
+                        <!-- Header Nav Links End -->
                     </div>
-                    </div>
-                    <!-- Start Humberger Menu  -->
-                    <div class="humberger-menu d-block d-lg-none pl--20 pl_sm--10">
-                        <span class="menutrigger text-white">
-                            <i data-feather="menu"></i>
-                        </span>
-                    </div>
-                    <!-- End Humberger Menu  -->
-                    <!-- Start Close Menu  -->
-                    <div class="close-menu d-block d-lg-none">
-                        <span class="closeTrigger">
-                            <i data-feather="x"></i>
-                        </span>
-                    </div>
-                    <!-- End Close Menu  -->
                 </div>
-            </div>
+            </nav>
+            <!-- Header Navbar End -->
         </header>
-        <!-- End Header Area  -->
+        <!-- Header Section End -->
 
-        <!-- Start Page Wrapper  -->
-        <main class="page-wrapper">
-            <!-- Start Slider Area  -->
-            <div class="rn-slider-area" id="home">
-                <!-- Start Single Slide  -->
-                <div class="slide personal-portfolio-slider slider-paralax slider-style-3 dark-slider d-flex align-items-center justify-content-center bg_image bg_image--28">
+        <!-- Banner Section Start -->
+        <section id="banner" class="banner--section" data-bg-parallax="img/banner-img/bgbannarme.svg" data-overlay="0.8">
+            <div class="vc--parent">
+                <div class="vc--child">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="inner text-left">
-                                    <span>Full-Stack Web Developer & Designer</span>
-                                    <h1 class="title">Hi, I’m <span>Millat Hussain</span></h1>
-                                    <h2>Passionate Website Developer With Deep ideas!</h2>
+                            <div class="col-md-8 col-md-offset-2">
+                                <!-- Banner Content Start -->
+                                <div class="banner--content text-center pt--160 pb--100">
+                                    <div class="title text-uppercase">
+                                        <h2 class="h3 text-white"><span class="text-primary">Hello</span> I'm</h2>
+                                    </div>
+
+                                    <div class="name text-uppercase">
+                                        <h3 class="h2 text-white">Millat Hussain </h3>
+                                    </div>
+
+                                    <div class="role fs--18 fw--700 text-white">
+                                        <p>Full Stack Web Developer</p>
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>I’m MD.Millat Hussain Passionate about web development. I’m working a minimum of 13-14 hours every day, I love to do this it’s my life-everything.</p>
+                                    </div>
+
+                                    <div class="action">
+                                        <a href="#" class="btn btn-default">Hire Me</a>
+
+                                        <a href="#portfolio" data-trigger="scroll" class="btn btn-white">My Works</a>
+                                    </div>
                                 </div>
+                                <!-- Banner Content End -->
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Slide  -->
                 </div>
             </div>
-            <!-- End Slider Area  -->
+        </section>
+        <!-- Banner Section End -->
 
-            <!-- Start About Area  -->
-            <div class="about-area rn-section-gap bg_color--1" id="about">
-                <div class="about-wrapper">
-                    <div class="container">
-                        <div class="row row--35 align-items-center">
-                            <div class="col-lg-5">
-                                <div class="thumbnail">
-                                    <img class="w-100" src="assets/images/about/coversmalldesign.png" alt="About Images" />
-                                </div>
+        <!-- About Section Start -->
+        <section id="aboutme" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">About Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row row--md-vc">
+                    <div class="col-md-6 pb--60">
+                        <!-- Image Block Start -->
+                        <div class="img--block">
+                            <img src="img/about-img/aboutimg.svg" alt="">
+                        </div>
+                        <!-- Image Block End -->
+                    </div>
+                    
+                    <div class="col-md-6 pb--60">
+                        <!-- About Block Start -->
+                        <div class="about--block">
+                            <div class="title">
+                                <h2 class="h4 fw--700 text-uppercase">Personal Details</h2>
                             </div>
-                            <div class="col-lg-7">
-                                <div class="about-inner inner pt--100 pt_sm--40 pt_md--40">
-                                    <div class="section-title">
-                                        <h2 class="title">About Me</h2>
-                                        <p class="description">
 
+                            <div class="details pt--30 text-dark">
+                                <p>Passionate Website Developer With Deep ideas!</p>
+                            </div>
 
-                                            <b>
-                                            Professional Full-Stack Web Developer & Web Designer.</b>
-                                            <br> <br>
+                            <div class="details pt--30">
+                                <p>I’m MD.Millat Hussain Passionate about web development. I’m working a minimum of 7-8 hours every day, I love to do this it’s my life-everything.
+My goal is to satisfy clients, try to understand what they want for their website, help them from beginning to end with the project and give support for every problem. <br><br>
+My design is simple & fresh. My coding is W3C validated, fresh, SEO optimized and also hand-coded. I work flexibly with clients. <br><br>
+full-stack web developer with 1 year of hands-on experience in front-end and back-end development .proficient with various web development frameworks and libraries. <br>
+Develop Web and RESTful applications using PHP frameworks (Laravel) and React Js, jQuery, and some other tools.</p>
+                            </div>
 
-I’m MD.Millat Hussain Passionate about web development. I’m working a minimum of 7-8 hours every day, I love to do this it’s my life-everything. <br>
-My goal is to satisfy clients, try to understand what they want for their website, help them from beginning to end with the project and give support for every problem.
-<br>
+                            <div class="info pt--50">
+                                <table class="ff--primary">
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-calendar"></i>
+                                                <span>Brithday</span>
+                                            </th>
+                                            <td>1/10/2002</td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-phone"></i>
+                                                <span>Phone</span>
+                                            </th>
+                                            <td><a href="tel:+01853907553" class="btn-link">01853907553</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-envelope"></i>
+                                                <span>Email</span>
+                                            </th>
+                                            <td><a href="mailto:millathussain127166@gmail.com" class="btn-link">millathussain127166@gmail.com</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-skype"></i>
+                                                <span>Skype</span>
+                                            </th>
+                                            <td>Millat_Hussain</td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <i class="fa fa-globe"></i>
+                                                <span>Website</span>
+                                            </th>
+                                            <td><a href="https://millat127166.github.io/me/" class="btn-link">www.millat.com</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
 
-My design is simple & fresh. My coding is W3C validated, fresh, SEO optimized and also hand-coded. I work flexibly with clients.
-<br>
-full-stack web developer with 1 year of hands-on experience in front-end and back-end development .proficient with various web development frameworks and libraries.
-<br>
+                            <div class="social text-dark pt--30">
+                                <ul class="nav">
+                                    <li><a href="https://www.facebook.com/Developermillat/"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/millat127166"><span class="fa fa-twitter"></span></a></li>
+                              
+                                    <li><a href="https://www.linkedin.com/in/millat127166/"><span class="fa fa-linkedin"></span></a></li>
+                                </ul>
+                            </div>
 
-Develop Web and RESTful applications using PHP frameworks (Laravel) and React Js, jQuery, and some other tools.
-                                        </p>
+                            <div class="action pt--60">
+                                <a href="#" class="btn btn-default">Download Resume</a>
+                            </div>
+                        </div>
+                        <!-- About Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Services Section Start -->
+        <section id="services" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Services I Offer</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                             <ion-icon name="logo-html5"></ion-icon>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">PSD TO HTML5</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>I will convert your PSD to HTML5 with Latest Bootstrap. It will fully responsive. Pixel perfect code and fresh hand code is my power. If you have any design or idea I can make it a website.</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                               <ion-icon name="logo-wordpress"></ion-icon>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">PSD TO WORDPRESS</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>I can create any kinds of WordPress website based on client needs. If you have any design or idea I can make it a website.</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                              <ion-icon name="logo-react"></ion-icon>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">Front End React Js  </h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>"Build material ui react web app || Build Material UI react admin dashboard design ".</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Service Block Start -->
+                        <div class="service--block">
+                            <div class="icon">
+                             <ion-icon name="logo-web-component"></ion-icon>
+                            </div>
+
+                            <div class="title">
+                                <h3 class="h4">CONVERT ANY WEBSITE INTO WORDPRESS</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>I am first and expert WordPress theme developer. Full and fresh hand coding is my power. I can convert any website to WordPress</p>
+                            </div>
+                        </div>
+                        <!-- Service Block End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section id="portfolio" class="section pt--100 pb--40">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Portfolio</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <!-- Portfolio Filter Menu Start -->
+                <div class="portfolio--filter-menu pb--50">
+                    <ul class="nav">
+                        <li data-target="*" class="active">All Works</li>
+                        <li data-target="illustration">PSD TO HTML </li>
+                        <li data-target="ui-design">PSD TO WORDPRESS</li>
+                        <li data-target="branding">FrontEnd ReactJs</li>
+                    </ul>
+                </div>
+                <!-- Portfolio Filter Menu End -->
+
+                <!-- Portfolio Items Start -->
+                <div class="portfolio--items row MasonryRow pb--30" data-trigger="gallery_popup">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/01.jpg" alt="">
+
+                            <a href="img/portfolio-img/01.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Cover Design</h3>
+
+                                        <p>Lorem ipsum dolor sit amet.</p>
                                     </div>
-                                    <div class="tab-wrapper mt--30">
-                                        <ul class="nav nav-tabs tab-style--1" id="myTab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="mainskill" data-toggle="tab" href="#rn-mainskill" role="tab" aria-controls="mainskill" aria-selected="true">Main skills</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="awards" data-toggle="tab" href="#rn-awards" role="tab" aria-controls="awards" aria-selected="false">Awards</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="experience" data-toggle="tab" href="#rn-experience" role="tab" aria-controls="experience" aria-selected="false">Experience</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="education" data-toggle="tab" href="#rn-education" role="tab" aria-controls="education" aria-selected="false">Education & Certification</a>
-                                            </li>
-                                        </ul>
-                                        <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane fade show active" id="rn-mainskill" role="tabpanel" aria-labelledby="mainskill">
-                                                <div class="single-tab-content">
-                                                    <ul>
-                                                        <li><a href="">Web Design || User 
-                                                            interface
-                                                                Design <span>
-                                                            </span></a>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
 
-                                                            HTML, CSS, Bootstrap, Tailwind, Jquery, ReactJs
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design illustration">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/02.jpg" alt="">
 
-                                                        </li>
-                                                        <li><a href="service.html">Web Development || Backend
-                                                                <span> -
-                                                                    </span></a>
+                            <a href="img/portfolio-img/02.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Business Card Design</h3>
 
-                                                                    PHP, Laravel, RestAPI
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
 
-                                                                </li>
-                                                        <li><a href="service.html"> Tools <span> -
-                                                                    </span></a>
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/03.jpg" alt="">
 
-                                                                    Adobe Photoshop, Adobe XD, Figma, VS Code
-                                                            
+                            <a href="img/portfolio-img/03.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Candleholders Design</h3>
 
-                                                            </li>
-                                                    </ul>
-                                                </div>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="branding illustration">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/04.jpg" alt="">
+
+                            <a href="img/portfolio-img/04.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Branding Design</h3>
+
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="illustration ui-design">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/01.jpg" alt="">
+
+                            <a href="img/portfolio-img/01.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Cover Design</h3>
+
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="ui-design illustration">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/02.jpg" alt="">
+
+                            <a href="img/portfolio-img/02.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Business Card Design</h3>
+
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="illustration branding">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/03.jpg" alt="">
+
+                            <a href="img/portfolio-img/03.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Candleholders Design</h3>
+
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--30" data-cat="branding illustration">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio--item">
+                            <img src="img/portfolio-img/04.jpg" alt="">
+
+                            <a href="img/portfolio-img/04.jpg" class="caption">
+                                <div class="vc--parent">
+                                    <div class="vc--child">
+                                        <h3 class="h6">Branding Design</h3>
+
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                </div>
+                <!-- Portfolio Items End -->
+            </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- Call To Action Start -->
+        <section class="section pt--100 pb--100" data-bg-parallax="img/call-to-action-img/bgbannarme.svg" data-overlay="0.7">
+            <div class="container">
+                <!-- Call To Action Block Start -->
+                <div class="cta--block text-center">
+                    <div class="title">
+                        <h2 class="h2 text-white">Have an exciting idea for a project?</h2>
+                    </div>
+
+                    <div class="content fs--20 pt--10 text-white">
+                        <p>Life Is One Time Offer, Use It Will.</p>
+                    </div>
+
+                    <div class="action pt--20">
+                        <a href="https://www.linkedin.com/in/millat127166/" class="btn btn-white">Hire Me Now</a>
+                    </div>
+                </div>
+                <!-- Call To Action Block End -->
+            </div>
+        </section>
+        <!-- Call To Action End -->
+
+        <!-- Resume Section Start -->
+        <section id="resume" class="section pt--100 pb--100">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">My Resume</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                    <div class="title">
+                        <h3 class="h5">Education</h3>
+                    </div>
+
+                    <div class="sub-title">
+                        <p class="fs--16">Knowledge is power. Information is liberating. Eduction is the premise of progress, in every society, in every family.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2018 - 2022</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Computer Technology</h4>
+
+                                                <p class="institute ff--primary">Mymensingh Polytechnic Institute</p>
+
+                                                <p class="location fs--12">Diploma in Engineering</p>
                                             </div>
-                                            <div class="tab-pane fade" id="rn-awards" role="tabpanel" aria-labelledby="awards">
-                                                <div class="single-tab-content">
-                                                    <ul>
-                                                        <li><a href="service.html">Awwwards.com <span>-
-                                                                    Winner</span></a> 2019 -
-                                                            2020
-                                                        </li>
-                                                        <li><a href="service.html">CSS Design Awards <span>-
-                                                                    Winner</span></a> 2017
-                                                            -
-                                                            2018</li>
-                                                        <li><a href="service.html">Design nominees <span>- site of
-                                                                    the
-                                                                    day</span></a>
-                                                            2013- 2014</li>
-                                                    </ul>
-                                                </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p> I have completed Computer Technology diploma in 2020. Now I am studying in Uttara university at B.Sc. in computer science engineering.</p>
                                             </div>
-                                            <div class="tab-pane fade" id="rn-experience" role="tabpanel" aria-labelledby="experience">
-                                                <div class="single-tab-content">
-                                                    <ul>
-                                                        <li><a href="/service">Sr. Front-end Engineer<span> -
-                                                                    Google</span></a> 2018
-                                                            - Current</li>
-                                                        <li><a href="/service">Front-end Engineer<span> -
-                                                                    Microsoft</span></a> 2017
-                                                            - 2018</li>
-                                                        <li><a href="/service">Software Engineer<span> - Alibaba
-                                                                </span></a> 2013-
-                                                            2014</li>
-                                                    </ul>
-                                                </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2016 - 2018</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">SSC</h4>
+
+                                                <p class="institute ff--primary">Wisdom lab. School</p>
+
+                                                <p class="location fs--12">Secondary School Certificate</p>
                                             </div>
-
-                                            <div class="tab-pane fade" id="rn-education" role="tabpanel" aria-labelledby="education">
-                                                <div class="single-tab-content">
-                                                    <ul>
-                                                       
-
-                                                        <li><a href="/service">Diploma in Computer Science<span>
-                                                            Mymensingh Polytechnic Institute
-                                                                    
-                                                                    </span></a> 2022</li>
-
-                                                        <li><a href="/service"> SSC <span>
-                                                                    Bagbari High School
-                                                                    CA</span></a> 2018</li>
-
-                                                     <li><a href="/service">JSC<span> 
-                                                        Shyampur High School
-                                                                    </span></a> 2016</li>
-                                                    </ul>
-                                                </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>The Secondary School Certificate, also called SSC or Matriculation examination, in madrasah education Dakhil is a public examination in India, Bangladesh, and Pakistan conducted by educational boards for the successful completion of the secondary education exam in these countries.</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2015</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">JSC</h4>
+
+                                                <p class="institute ff--primary">Shyampur High School</p>
+
+                                                <p class="location fs--12">Junior School Certificate</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Junior School Certificate or short JSC , the eighth grade students apply for a ganapariksa. The equivalent certificate issued for Madrasa students is called Junior Dakhil Certificate or JDC . Those who pass the exam are awarded a Junior School Certificate and are offered admission to the ninth grade. Besides, junior scholarship will be given on the basis of the result of this examination. In 2010, for the first time in Bangladesh, Junior School Certificate Examination and Junior Dakhil Certificate Examination were held for the students of Omadrasa General School.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-default">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2012</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">PSC</h4>
+
+                                                <p class="institute ff--primary">Shampur Government  school</p>
+
+                                                <p class="location fs--12">Primary School Certificate</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Primary School Certificate</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Resume Section End -->
+
+        <!-- Experience Section Start -->
+        <section class="section pt--100 pb--100 bg-light">
+            <div class="container">
+                <!-- Timeline Block Start -->
+                <div class="timeline--block">
+                    <div class="title">
+                        <h3 class="h5">Experience</h3>
+                    </div>
+
+                    <div class="sub-title">
+                        <p class="fs--16">I always give 100% at work: 13% Monday, 22% Tuesday, 26% Wednesday, 35% Thursday 4% Friday.</p>
+                    </div>
+
+                    <!-- Timeline Items Start -->
+                    <ul class="timeline--items nav">
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2000 - 2013</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Company Name</h4>
+
+                                                <p class="institute ff--primary">Your Job Title</p>
+
+                                                <p class="location fs--12">Tokyo, Japan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2000 - 2013</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Company Name</h4>
+
+                                                <p class="institute ff--primary">Your Job Title</p>
+
+                                                <p class="location fs--12">Tokyo, Japan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2000 - 2013</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Company Name</h4>
+
+                                                <p class="institute ff--primary">Your Job Title</p>
+
+                                                <p class="location fs--12">Tokyo, Japan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                        <li>
+                            <!-- Timeline Item Start -->
+                            <div class="timeline--item">
+                                <div class="icon bg-light">
+                                    <i class="fa fa-briefcase"></i>
+                                </div>
+
+                                <table class="table" data-scroll-reveal="bottom">
+                                    <tr>
+                                        <td>
+                                            <p class="date bg-primary">2000 - 2013</p>
+
+                                            <div class="bottom">
+                                                <h4 class="name h6 fw--700">Company Name</h4>
+
+                                                <p class="institute ff--primary">Your Job Title</p>
+
+                                                <p class="location fs--12">Tokyo, Japan</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="content">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad, officiis! Saepe amet beatae nihil, tempora, qui odio sapiente aliquid sit quia ipsa quae.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!-- Timeline Item End -->
+                        </li>
+                    </ul>
+                    <!-- Timeline Items End -->
+                </div>
+                <!-- Timeline Block End -->
+            </div>
+        </section>
+        <!-- Experience Section End -->
+
+        <!-- Skills Section Start -->
+        <section id="skills" class="section pt--100 pb--40" data-bg-img="img/skills-img/skillimage.svg" data-overlay="0.7">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-white text-uppercase">My Skills</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row">
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Personal Skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">html</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">css</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">bootstrap</span>
+                                    <span class="skill--count float--right">60%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 60%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Jquery</span>
+                                    <span class="skill--count float--right">65%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 65%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Javascript</span>
+                                    <span class="skill--count float--right">70%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 70%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
                         </div>
+                        <!-- Skills Items End -->
+                    </div>
+
+                    <div class="col-md-6 pb--60">
+                        <!-- Skills Items Start -->
+                        <div class="skills--items">
+                            <div class="skill--title text-uppercase">
+                                <h3 class="h4 text-white">Professional Skills</h3>
+                            </div>
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">Laravel</span>
+                                    <span class="skill--count float--right">80%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 80%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">PHP</span>
+                                    <span class="skill--count float--right">90%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 90%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">MySql Database</span>
+                                    <span class="skill--count float--right">60%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 60%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">ReactJs</span>
+                                    <span class="skill--count float--right">65%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 65%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+
+                            <!-- Skill Item Start -->
+                            <div class="skill--item">
+                                <h4 class="h6 fw--400 text-white text-uppercase clearfix">
+                                    <span class="skill--text">RESTAPI</span>
+                                    <span class="skill--count float--right">70%</span>
+                                </h4>
+
+                                <p class="skill--progress" style="width: 70%;" data-trigger="progress_bar"></p>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Items End -->
                     </div>
                 </div>
             </div>
-            <!-- End About Area  -->
+        </section>
+        <!-- Skills Section End -->
 
-            <!-- Start Service Area  -->
-            <div class="rn-service-area rn-section-gap bg_color--5" id="service">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title service-style--3 text-center mb--20 mb_sm--0 md_md--0">
-                                <h2 class="title">My Awesome Service</h2>
-                                <p>I am working as a web developer since 2018. At this time, I completed lots of successful jobs. I am a top-rated freelancer on Fiver. Here are some of my services.
+        <!-- Pricing Section Start -->
+        <section id="pricing" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Pricing Plan</h2>
 
-</p>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow">
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Pricing Item Start -->
+                        <div class="pricing--item">
+                            <div class="pricing--header bg-primary">
+                                <div class="plan">
+                                    <h3 class="h3 text-primary">PSD TO HTML5</h3>
+                                </div>
+
+                                <div class="price ff--primary">
+                                    <p>Form <span>$25</span></p>
+                                </div>
+                            </div>
+
+                            <div class="pricing--features fs--16 ff--primary">
+                                <ul class="nav">
+                                    <li>Web Design Service</li>
+                                    <li>1 Simple Page</li>
+                                    <li>Full & fresh hand code</li>
+                                    <li>Responsive Design</li>
+                                    <li>Pixel perfect code</li>
+
+                                </ul>
+                            </div>
+
+                            <div class="pricing--action">
+                                <a href="#" class="btn btn-primary">Order Now</a>
                             </div>
                         </div>
+                        <!-- Pricing Item End -->
                     </div>
-                    <div class="row">
 
-                        <!-- Start Single Service  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                            <div class="single-service service__style--2 bg-color-gray">
-                                <a href="service-details.html">
-                                    <div class="service">
-                                        <div class="icon">
-                                            <i class="fab fa-html5"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title">
-PSD TO HTML5</h3>
-                                            <p>I will convert your PSD to HTML5 with Latest Bootstrap. It will fully responsive. Pixel perfect code and fresh hand code is my power. If you have any design or idea I can make it a website.</p>
-                                        </div>
-                                    </div>
-                                </a>
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Pricing Item Start -->
+                        <div class="pricing--item">
+                            <div class="pricing--header bg-primary">
+                                <div class="plan">
+                                    <h3 class="h3 text-primary">HTML TO WORDPRESS</h3>
+                                </div>
+
+                                <div class="price ff--primary">
+                                    <p>Form <span>$50</span></p>
+                                </div>
+                            </div>
+
+                            <div class="pricing--features fs--16 ff--primary">
+                                <ul class="nav">
+                                    <li>Simple WP Website</li>
+                                    <li>Full control form WP Admin</li>
+                                    <li>Latest WordPress Support</li>
+                                    <li>Fresh hand code is my power</li>
+
+
+
+
+
+
+
+                                </ul>
+                            </div>
+
+                            <div class="pricing--action">
+                                <a href="#" class="btn btn-primary">Order Now</a>
                             </div>
                         </div>
-                        <!-- End Single Service  -->
+                        <!-- Pricing Item End -->
+                    </div>
 
-                        <!-- Start Single Service  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                            <div class="single-service service__style--2 bg-color-gray">
-                                <a href="service-details.html">
-                                    <div class="service">
-                                        <div class="icon">
-                                           <i class="fab fa-wordpress"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title">PSD TO WORDPRESS
-</h3>
-                                            <p>I can create any kinds of WordPress website based on client needs. If you have any design or idea I can make it a website.</p>
-                                        </div>
-                                    </div>
-                                </a>
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Pricing Item Start -->
+                        <div class="pricing--item">
+                            <div class="pricing--header bg-primary">
+                                <div class="plan">
+                                    <h3 class="h3 text-primary">CUSTOM WEBSITE</h3>
+                                </div>
+
+                                <div class="price ff--primary">
+                                    <p>Form <span>$80</span></p>
+                                </div>
+                            </div>
+
+                            <div class="pricing--features fs--16 ff--primary">
+                                <ul class="nav">
+                                    <li>Made with love</li>
+                                    <li>Full control for WP admin</li>
+                                    <li>Latest WordPress Support</li>
+                                    <li>Lifetime Support</li>
+                                </ul>
+                            </div>
+
+
+
+                            <div class="pricing--action">
+                                <a href="#" class="btn btn-primary">Order Now</a>
                             </div>
                         </div>
-                        <!-- End Single Service  -->
-
-                        <!-- Start Single Service  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                            <div class="single-service service__style--2 bg-color-gray">
-                                <a href="service-details.html">
-                                    <div class="service">
-                                        <div class="icon">
-                                            <i class="fas fa-wrench"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title">
-FIX HTML CSS BUGS</h3>
-                                            <p>I have a lots of experience about css fixing. So if your website have also problem such like that you may knock me.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- End Single Service  -->
-
-                        <!-- Start Single Service  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                            <div class="single-service service__style--2 bg-color-gray">
-                                <a href="service-details.html">
-                                    <div class="service">
-                                        <div class="icon">
-                                        <i class="fab fa-creative-commons-nd"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title">CONVERT ANY WEBSITE INTO WORDPRESS
-</h3>
-                                            <p>I am first and expert WordPress theme developer. Full and fresh hand coding is my power. I can convert any website to WordPress</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- End Single Service  -->
-
-                        <!-- Start Single Service  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                            <div class="single-service service__style--2 bg-color-gray">
-                                <a href="service-details.html">
-                                    <div class="service">
-                                        <div class="icon">
-                                          <i class="fab fa-php"></i>
-
-                                            &nbsp;
-                                          <i class="fab fa-laravel"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title">Website develope With PHP,laravel With Admin</h3>
-                                            <p>Front End as well as Backend Development. I have strong skills in HTML, HTML5, CSS3, Bootstrap, JAVASCRIPT, Laravel, & PHP. We are offering php website, php laravel wevbsite, php mysql, web developer, php script.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- End Single Service  -->
-
-                        <!-- Start Single Service  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                            <div class="single-service service__style--2 bg-color-gray">
-                                <a href="service-details.html">
-                                    <div class="service">
-                                        <div class="icon">
-                                            <i class="fab fa-react"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title">Front End React Js  </h3>
-                                            <p>"Build material ui react web app || Build Material UI react admin dashboard design ".
-
-</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- End Single Service  -->
+                        <!-- Pricing Item End -->
                     </div>
                 </div>
             </div>
-            <!-- Start Service Area  -->
+        </section>
+        <!-- Pricing Section End -->
+        <!-- Blog Section Start -->
+        <section id="blog" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Blog &amp; News</h2>
+                </div>
+                <!-- Section Title End -->
 
-            <!-- Start Portfolio Area  -->
-            <div class="rn-portfolio-area rn-section-gap bg_color--1" id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title section-title--3 text-center mb--30">
-                                <h2 class="title">My Latest Project</h2>
-                                <p>WORKFLOW OPTIMIZATION MADE EASY.</p>
+                <div class="row AdjustRow">
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Post Item Start -->
+                        <div class="post--item">
+                            <!-- Post Image Start -->
+                            <div class="post--img">
+                                <a href="blog-details.html"><img src="img/blog-img/post-item-01.jpg" alt=""></a>
+
+                                <a href="#" class="date">25 Jan 2017</a>
                             </div>
+                            <!-- Post Image End -->
+
+                            <!-- Post Title Start -->
+                            <div class="post--title text-uppercase">
+                                <h3 class="h3 fs--22">
+                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
+                                </h3>
+                            </div>
+                            <!-- Post Title End -->
+
+                            <!-- Post Excerpt Start -->
+                            <div class="post--excerpt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
+                            </div>
+                            <!-- Post Excerpt End -->
+
+                            <!-- Post Action Start -->
+                            <div class="post--action text-uppercase">
+                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                            <!-- Post Action End -->
                         </div>
+                        <!-- Post Item End -->
                     </div>
-                    <div class="row">
-                        <!-- Start Single Portfolio  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                            <div class="portfolio text-center">
-                                <div class="thumbnail-inner">
-                                    <div class="thumbnail image-8"></div>
-                                    <div class="bg-blr-image image-8"></div>
-                                </div>
-                                <div class="content">
-                                    <div class="inner">
-                                        <p>Development</p>
-                                        <h4><a href="portfolio-details.html">Getting tickets to the big show</a>
-                                        </h4>
-                                        <div class="portfolio-button">
-                                            <a class="rn-btn" href="portfolio-details.html">Case Study</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Portfolio  -->
 
-                        <!-- Start Single Portfolio  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                            <div class="portfolio text-center">
-                                <div class="thumbnail-inner">
-                                    <div class="thumbnail image-7"></div>
-                                    <div class="bg-blr-image image-7"></div>
-                                </div>
-                                <div class="content">
-                                    <div class="inner">
-                                        <p>Development</p>
-                                        <h4><a href="portfolio-details.html">Getting tickets to the big show</a>
-                                        </h4>
-                                        <div class="portfolio-button">
-                                            <a class="rn-btn" href="portfolio-details.html">Case Study</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Portfolio  -->
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Post Item Start -->
+                        <div class="post--item">
+                            <!-- Post Image Start -->
+                            <div class="post--img">
+                                <a href="blog-details.html"><img src="img/blog-img/post-item-02.jpg" alt=""></a>
 
-                        <!-- Start Single Portfolio  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                            <div class="portfolio text-center">
-                                <div class="thumbnail-inner">
-                                    <div class="thumbnail image-3"></div>
-                                    <div class="bg-blr-image image-3"></div>
-                                </div>
-                                <div class="content">
-                                    <div class="inner">
-                                        <p>Development</p>
-                                        <h4><a href="portfolio-details.html">Getting tickets to the big show</a>
-                                        </h4>
-                                        <div class="portfolio-button">
-                                            <a class="rn-btn" href="portfolio-details.html">Case Study</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#" class="date">25 Jan 2017</a>
                             </div>
-                        </div>
-                        <!-- End Single Portfolio  -->
-                        <!-- Start Single Portfolio  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                            <div class="portfolio text-center">
-                                <div class="thumbnail-inner">
-                                    <div class="thumbnail image-4"></div>
-                                    <div class="bg-blr-image image-4"></div>
-                                </div>
-                                <div class="content">
-                                    <div class="inner">
-                                        <p>Development</p>
-                                        <h4><a href="portfolio-details.html">Getting tickets to the big show</a>
-                                        </h4>
-                                        <div class="portfolio-button">
-                                            <a class="rn-btn" href="portfolio-details.html">Case Study</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Portfolio  -->
+                            <!-- Post Image End -->
 
-                        <!-- Start Single Portfolio  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                            <div class="portfolio text-center">
-                                <div class="thumbnail-inner">
-                                    <div class="thumbnail image-3"></div>
-                                    <div class="bg-blr-image image-3"></div>
-                                </div>
-                                <div class="content">
-                                    <div class="inner">
-                                        <p>Development</p>
-                                        <h4><a href="portfolio-details.html">Getting tickets to the big show</a>
-                                        </h4>
-                                        <div class="portfolio-button">
-                                            <a class="rn-btn" href="portfolio-details.html">Case Study</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <!-- Post Title Start -->
+                            <div class="post--title text-uppercase">
+                                <h3 class="h3 fs--22">
+                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
+                                </h3>
                             </div>
-                        </div>
-                        <!-- End Single Portfolio  -->
+                            <!-- Post Title End -->
 
-                        <!-- Start Single Portfolio  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-                            <div class="portfolio text-center">
-                                <div class="thumbnail-inner">
-                                    <div class="thumbnail image-2"></div>
-                                    <div class="bg-blr-image image-2"></div>
-                                </div>
-                                <div class="content">
-                                    <div class="inner">
-                                        <p>Development</p>
-                                        <h4><a href="portfolio-details.html">Getting tickets to the big show</a>
-                                        </h4>
-                                        <div class="portfolio-button">
-                                            <a class="rn-btn" href="portfolio-details.html">Case Study</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <!-- Post Excerpt Start -->
+                            <div class="post--excerpt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
                             </div>
+                            <!-- Post Excerpt End -->
+
+                            <!-- Post Action Start -->
+                            <div class="post--action text-uppercase">
+                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                            <!-- Post Action End -->
                         </div>
-                        <!-- End Single Portfolio  -->
+                        <!-- Post Item End -->
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="view-more-btn mt--60 mt_sm--30 text-center">
-                                <a class="rn-button-style--2 btn_solid" href="#">View More</a>
+
+                    <div class="col-md-4 col-xs-12 pb--60">
+                        <!-- Post Item Start -->
+                        <div class="post--item">
+                            <!-- Post Image Start -->
+                            <div class="post--img">
+                                <a href="blog-details.html"><img src="img/blog-img/post-item-03.jpg" alt=""></a>
+
+                                <a href="#" class="date">25 Jan 2017</a>
                             </div>
+                            <!-- Post Image End -->
+
+                            <!-- Post Title Start -->
+                            <div class="post--title text-uppercase">
+                                <h3 class="h3 fs--22">
+                                    <a href="blog-details.html" class="btn-link">Eiusmod tempor incididunt ut labore et dolor menna aliqua</a>
+                                </h3>
+                            </div>
+                            <!-- Post Title End -->
+
+                            <!-- Post Excerpt Start -->
+                            <div class="post--excerpt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dignissimos molestiae voluptates ullam dolor mollitia quos commodi...</p>
+                            </div>
+                            <!-- Post Excerpt End -->
+
+                            <!-- Post Action Start -->
+                            <div class="post--action text-uppercase">
+                                <a href="blog-details.html" class="btn-link">Read More<i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                            <!-- Post Action End -->
                         </div>
+                        <!-- Post Item End -->
+                    </div>
+                </div>
+
+                <!-- Section Footer Start -->
+                <div class="section--footer text-center pb--60">
+                    <a href="blog.html" class="btn btn-primary">View All Posts</a>
+                </div>
+                <!-- Section Footer End -->
+            </div>
+        </section>
+        <!-- Blog Section End -->
+
+        <!-- Clients Section Start -->
+        <section id="clients" class="section pt--80 pb--20">
+            <div class="container">
+                <div class="row" data-scroll-reveal="group">
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="img/brands-img/01.png" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="img/brands-img/02.png" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="img/brands-img/03.png" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
+                    </div>
+
+                    <div class="col-md-3 col-xs-6 col-xxs-12 pb--60">
+                        <!-- Client Item Start -->
+                        <div class="client--item">
+                            <img src="img/brands-img/04.png" alt="" class="center-block">
+                        </div>
+                        <!-- Client Item End -->
                     </div>
                 </div>
             </div>
-            <!-- Start Portfolio Area  -->
+        </section>
+        <!-- Clients Section End -->
 
-            <!-- Start Blog Area  -->
-            <div class="rn-blog-area rn-section-gap bg_color--5" id="blog">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="section-title section-title--3 text-center mb--30">
-                                <h2 class="title">Latest News</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, <br /> but the
-                                    majority have suffered alteration.</p>
-                            </div>
+        <!-- Testimonial Section Start -->
+        <section id="testimonial" class="section pt--90 pb--90" data-bg-parallax="img/testimonial-img/bg.jpg" data-overlay="0.5">
+            <div class="container">
+                <!-- Testimonial Slider Start -->
+                <div class="testimonial--slider owl-carousel" data-owl-dots="true">
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
                         </div>
+
+                        <blockquote>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+                            <footer>James Stone @ Company Inc.</footer>
+                        </blockquote>
                     </div>
-                    <div class="row">
-                        <!-- Start Blog Area  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="blog blog-style--1">
-                                <div class="thumbnail">
-                                    <a href="blog-details.html">
-                                        <img class="w-100" src="assets/images/blog/blog-01.jpg" alt="Blog Images" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <p class="blogtype">Development</p>
-                                    <h4 class="title"><a href="blog-details.html">Getting tickets to the big show</a>
-                                    </h4>
-                                    <div class="blog-btn">
-                                        <a class="rn-btn text-white" href="blog-details.html">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Blog Area  -->
+                    <!-- Testimonial Item End -->
 
-                        <!-- Start Blog Area  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="blog blog-style--1">
-                                <div class="thumbnail">
-                                    <a href="blog-details.html">
-                                        <img class="w-100" src="assets/images/blog/blog-02.jpg" alt="Blog Images" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <p class="blogtype">Development</p>
-                                    <h4 class="title"><a href="blog-details.html">Getting tickets to the big show</a>
-                                    </h4>
-                                    <div class="blog-btn">
-                                        <a class="rn-btn text-white" href="blog-details.html">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
                         </div>
-                        <!-- End Blog Area  -->
 
-                        <!-- Start Blog Area  -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="blog blog-style--1">
-                                <div class="thumbnail">
-                                    <a href="blog-details.html">
-                                        <img class="w-100" src="assets/images/blog/blog-03.jpg" alt="Blog Images" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <p class="blogtype">Development</p>
-                                    <h4 class="title"><a href="blog-details.html">Getting tickets to the big show</a>
-                                    </h4>
-                                    <div class="blog-btn">
-                                        <a class="rn-btn text-white" href="blog-details.html">Read More</a>
-                                    </div>
-                                </div>
+                        <blockquote>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+                            <footer>Roger Martin @ Company Inc.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+
+                    <!-- Testimonial Item Start -->
+                    <div class="testimonial--item text-white">
+                        <div class="icon">
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <blockquote>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+
+                            <footer>Wayne Stone @ Company Inc.</footer>
+                        </blockquote>
+                    </div>
+                    <!-- Testimonial Item End -->
+                </div>
+                <!-- Testimonial Slider End -->
+            </div>
+        </section>
+        <!-- Testimonial Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="section pt--100 pb--40 bg-light">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title pb--60 text-center">
+                    <h2 class="h2 text-uppercase">Contact With Me</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <div class="row AdjustRow pb--10">
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Call Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="tel:" class="btn-link"></a>, +880 1853907553<a href="tel:+1" class="btn-link"></a></p>
                             </div>
                         </div>
-                        <!-- End Blog Area  -->
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Visit Me</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p>Dhaka.Bangladesh</p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 pb--40">
+                        <!-- Contact Info Block Start -->
+                        <div class="contact--info-block" data-scroll-reveal="bottom">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+
+                            <div class="title text-uppercase">
+                                <h3 class="h4">Send A Message</h3>
+                            </div>
+
+                            <div class="desc">
+                                <p><a href="mailto:millathussain127166@gmail.com" class="btn-link">millathussain127166@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Block End -->
                     </div>
                 </div>
-            </div>
-            <!-- End Blog Area  -->
 
-            <!-- Start Contact Area  -->
-            <div class="rn-contact-area rn-section-gap bg_color--1" id="contact">
-                <div class="contact-form--1">
-                    <div class="container">
-                        <div class="row row--35 align-items-start">
-                            <div class="col-lg-6 order-2 order-lg-1">
-                                <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
-                                    <h2 class="title">Hire Me.</h2>
-                                    <p class="description">I am available for freelance work On Fiver. Connect with me via
-                                       
-                                        <a class="text-danger text-underline" href="https://www.fiverr.com/share/Q6r6Zy"> Fiver Gig:</a>
-                                        
-                                </div>
-                                <div class="form-wrapper">
-                                    <form>
-                                        <label htmlFor="item01">
-                                            <input type="text" name="name" id="item01" placeholder="Your Name *" />
-                                        </label>
+                <!-- Contact Form Start -->
+                <div class="contact--form pb--60" data-form="ajax">
+                    <div class="title text-center text-uppercase pb--30">
+                        <h3 class="h4">You can drop me a line here</h3>
+                    </div>
 
-                                        <label htmlFor="item02">
-                                            <input type="text" name="email" id="item02" placeholder="Your email *">
-                                        </label>
+                    <form action="forms/contact-form.php">
+                        <div class="status"></div>
 
-                                        <label htmlFor="item03">
-                                            <input type="text" name="subject" id="item03" placeholder="Write a Subject">
-                                        </label>
-                                        <label htmlFor="item04">
-                                            <textarea type="text" id="item04" name="message" placeholder="Your Message"></textarea>
-                                        </label>
-                                        <button class="rn-button-style--2 btn_solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
-                                    </form>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Name *" class="form-control" required>
                                 </div>
                             </div>
-                            <div class="col-lg-6 order-1 order-lg-2">
-                                <div class="thumbnail mb_md--30 mb_sm--30">
-                                    <img src="assets/images/about/thisis2design.png" alt="trydo" />
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="E-mail *" class="form-control" required>
                                 </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" name="subject" placeholder="Subject *" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Message *" class="form-control" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-block btn-primary">Send Message</button>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
+                <!-- Contact Form End -->
             </div>
-            <!-- End Contact Area  -->
-        </main>
-        <!-- End Page Wrapper  -->
-        <!-- Start Footer Style Two  -->
-        <div class="footer-style-2 ptb--30 bg_image bg_image--1" data-black-overlay="6">
-            <div class="wrapper plr--50 plr_sm--20">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="inner">
-                            <div class="logo text-center text-sm-left mb_sm--20">
-                                <a href="#">
-                                    <img class="describpreview" src="assets/images/logo/describpreview.png" alt="Logo Millat" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="inner text-center">
-                            <ul class="social-share social-style--2 d-flex justify-content-start liststyle">
-                                <li><a href="https://www.facebook.com/Developermillat/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/millat127166"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="https://www.instagram.com/millat127166"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://github.com/millat127166"><i class="fab fa-github"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                        <div class="inner text-lg-right text-center mt_md--20 mt_sm--20">
-                            <div class="text">
-                                <p>Copyright © 2021 <a target="_blank" href="https://www.facebook.com/Developermillat/">Millat Hussain</a>. All Rights Reserved.</p>
-                            </div>
-                        </div>
-                    </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Footer Section Start -->
+        <footer class="footer--section pt--100 pb--100 text-center">
+            <div class="container">
+                <!-- Footer Social Start -->
+                <div class="footer--social">
+                    <ul class="nav" data-scroll-reveal="group">
+                           
+                                    <li><a href="https://www.facebook.com/Developermillat/"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="https://twitter.com/millat127166"><span class="fa fa-twitter"></span></a></li>
+                              
+                                    <li><a href="https://www.linkedin.com/in/millat127166/"><span class="fa fa-linkedin"></span></a></li>
+                              
+                    </ul>
                 </div>
+                <!-- Footer Social End -->
+
+                <!-- Copyright Text Start -->
+                <p class="copyright--text fs--16 ff--primary">Copyright &copy; 2021 <a href="https://www.linkedin.com/in/millat127166/">Millat Hussain</a>. All Rights Reserved.</p>
+                <!-- Copyright Text End -->
             </div>
-        </div>
-        <!-- End Footer Style Two  -->
+        </footer>
+        <!-- Footer Section End -->
     </div>
-    <!-- JS
-============================================ -->
-    <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr.min.js"></script>
-    <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/stellar.js"></script>
-    <script src="assets/js/vendor/particles.js"></script>
-    <script src="assets/js/vendor/masonry.js"></script>
-    <script src="assets/js/vendor/stickysidebar.js"></script>
-    <script src="assets/js/plugins/plugins.js"></script>
-    <script src="assets/js/vendor/js.cookie.js"></script>
-    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <!-- Wrapper End -->
 
+    <!-- Back To Top Button Start -->
+    <div id="backToTop">
+        <a href="#" class="btn btn-default active"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
+    </div>
+    <!-- Back To Top Button End -->
+
+    <!-- ==== Plugins Bundle ==== -->
+    <script src="js/plugins.min.js"></script>
+
+    <!-- ==== Main Script ==== -->
+    <script src="js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
