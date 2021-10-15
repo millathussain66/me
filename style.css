@@ -1,97 +1,4 @@
-/*
 
-[Main Stylesheet]
-
-Project     : JD - Responsive Personal vCard / CV / Resume Template
-Version     : 1.0
-Author      : ThemeLooks
-Author URI  : https://themeforest.net/user/themelooks
-
-
-NOTE:
-------
-PLEASE DO NOT EDIT THIS CSS, YOU MAY NEED TO USE "custom.css" FILE FOR WRITING YOUR CUSTOM CSS.
-WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SAFER TO USE "custom.css".
-
-
-[TABLE OF CONTENTS]
-
-1. GENERAL STYLES
-    1.1. HEADINGS
-    1.2. LINKS
-    1.3. NAV LINKS
-    1.4. BUTTONS
-    1.5. FORM CONTROLS
-    1.6. ALERT
-
-2. HELPER CLASSES
-    2.1. FLOATS
-    2.2. OVERFLOWS
-    2.3. PADDINGS
-    2.4. TEXT COLORS
-    2.5. BACKGROUND IMAGE
-    2.6. BACKGROUND OVERLAY
-    2.7. BACKGROUND COLORS
-    2.8. FONTS
-    2.9. VERTICAL CENTERING
-
-3. COMPONENTS
-    3.1. PRELOADER
-    3.2. SECTION TITLE
-    3.3. PAGE BREADCRUMB
-    3.4. OWL DOTS
-    3.5. PORTFOLIO FILTER MENU
-    3.6. PAGINATION NAV
-    3.7. BACK TO TOP
-
-4. WIDGETS
-    4.1. WIDGET TITLE
-    4.2. SEARCH WIDGET
-    4.3. NEWSLETTER WIDGET
-    4.4. LINKS WIDGET
-    4.5. TAGS WIDGET
-
-5. BLOCKS
-    5.1. ABOUT BLOCK
-    5.2. SERVICE BLOCK
-    5.3. TIMELINE BLOCK
-    5.4. CONTACT INFO BLOCK
-    5.5. CONTACT FORM
-    5.6. COMMENT BLOCK
-    5.7. CALL TO ACTION BLOCK
-
-6. ITEMS
-    6.1. PORTFOLIO ITEMS
-    6.2. TIMELINE ITEMS
-    6.3. SKILLS ITEMS
-    6.4. PRICING ITEM
-    6.5. TEAM MEMBER ITEM
-    6.6. POST ITEM
-    6.7. TESTIMONIAL ITEM
-    6.8. COMMENT ITEMS
-
-7. HEADER SECTION
-    7.1. HEADER NAVBAR
-    7.2. HEADER NAV LINKS
-
-8. BANNER SECTION
-    8.1. BANNER CONENT
-
-9. FOOTER SECTION
-    9.1. FOOTER SOCIAL
-    9.2. COPYRIGHT TEXT
-
-10. 404 SECTION
-    10.1. 404 CONTENT
-
-11. COMING SOON SECTION
-    11.1. COMING SOON CONTENT
-
-*/
-
-/*------------------------------------*\
-    1. GENERAL STYLES
-\*------------------------------------*/
 html,
 body {
     height: 100%;
@@ -118,6 +25,8 @@ img,
 .nav > li > a > img { /* RESPONSIVE IMAGES */
     max-width: 100%;
     height: auto;
+    border: 2px solid;
+    padding: 0.2rem;
 }
 
 p:last-child > img {
