@@ -25,7 +25,7 @@ img,
 .nav > li > a > img { /* RESPONSIVE IMAGES */
     max-width: 100%;
     height: auto;
-    border: 2px solid;
+    /* border: 2px solid; */
     padding: 0.2rem;
 }
 
