@@ -1,12 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
+
+
 html,
 body {
     height: 100%;
 }
 
 body {
-    color: #878787;
-    font-family: "Roboto", sans-serif;
+    /* color: #878787; */
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -59,7 +62,7 @@ p:last-child > img {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #181818;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, .h1, .h2, .h3 {
@@ -168,7 +171,7 @@ a:focus {
     position: relative;
     padding: 7px 30px 6px;
     border-radius: 0;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     line-height: 25px;
     -webkit-transition-property: color, border-color, background-color;
@@ -347,7 +350,7 @@ a:focus {
     border-color: #e5e5e5;
     border-radius: 0;
     box-shadow: none;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -479,8 +482,8 @@ select.form-control {
 .bg-primary { background-color: #ff305b; }
 
 /* 2.8. FONTS */
-.ff--default { font-family: "Roboto", sans-serif; }
-.ff--primary {font-family: "Roboto Condensed", sans-serif;}
+.ff--default {    font-family: 'Lato', sans-serif; }
+.ff--primary { font-family: 'Lato', sans-serif;}
 
 .fw--100 { font-weight: 100; }
 .fw--200 { font-weight: 200; }
