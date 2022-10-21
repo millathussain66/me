@@ -13,6 +13,7 @@ body {
   height: 100%;
   background: #1A232C;
   color: white;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -148,10 +149,20 @@ header.sticky ul li a {
 }
 
 /*---------home--------*/
-img {
+img.coverimage {
+  width: 65%;
+
+  
+}
+
+img{
   width: 100%;
   height: 100%;
   
+}
+
+img.img-logo-here {
+  width: 119%;
 }
 
 
